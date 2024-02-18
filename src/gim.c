@@ -339,7 +339,7 @@ int main(void)
 #ifdef __APPLE__
                 "ganguo",
 #else
-                "sdic@cqffc2803",
+                "",
 #endif
                 conf.db->name,
                 8);
