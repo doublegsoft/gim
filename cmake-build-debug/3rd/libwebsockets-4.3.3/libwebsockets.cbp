@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libwebsockets"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rd\;CMake Files\3rd\gfc\;CMake Files\3rd\wsServer\;CMake Files\3rd\wsServer\examples\;CMake Files\3rd\wsServer\examples\echo\;CMake Files\3rd\wsServer\examples\ping\;CMake Files\3rd\wsServer\examples\vtouchpad\;CMake Files\3rd\json-c-json-c-0.16-20220414\;CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\;CMake Files\3rd\json-c-json-c-0.16-20220414\apps\;CMake Files\3rd\json-c-json-c-0.16-20220414\apps\cmake\;CMake Files\3rd\json-c-json-c-0.16-20220414\doc\;CMake Files\3rd\libwebsockets-4.3.3\;CMake Files\3rd\libwebsockets-4.3.3\cmake\;CMake Files\3rd\libwebsockets-4.3.3\lib\;CMake Files\3rd\libwebsockets-4.3.3\lib\plat\;CMake Files\3rd\libwebsockets-4.3.3\lib\plat\unix\;CMake Files\3rd\libwebsockets-4.3.3\lib\tls\;CMake Files\3rd\libwebsockets-4.3.3\lib\core\;CMake Files\3rd\libwebsockets-4.3.3\lib\misc\;CMake Files\3rd\libwebsockets-4.3.3\lib\system\;CMake Files\3rd\libwebsockets-4.3.3\lib\system\smd\;CMake Files\3rd\libwebsockets-4.3.3\lib\system\metrics\;CMake Files\3rd\libwebsockets-4.3.3\lib\core-net\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\http\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\h1\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\h2\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\ws\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\raw-skt\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\raw-file\;CMake Files\3rd\libwebsockets-4.3.3\lib\roles\listen\;CMake Files\3rd\libwebsockets-4.3.3\lib\event-libs\;CMake Files\3rd\libwebsockets-4.3.3\lib\event-libs\poll\;CMake Files\3rd\libwebsockets-4.3.3\test-apps\;CMake Files\3rd\libwebsockets-4.3.3\plugins\;CMake Files\3rd\libwebsockets-4.3.3\lwsws\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GENHDR">
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 GENHDR"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dist">
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 dist"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="websockets_shared">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/libwebsockets.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLWS_BUILDING_SHARED"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 websockets_shared"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="websockets_shared/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/libwebsockets.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLWS_BUILDING_SHARED"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 websockets_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="websockets">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/libwebsockets.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLWS_BUILDING_STATIC"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 websockets"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="websockets/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/libwebsockets.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLWS_BUILDING_STATIC"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 websockets/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-server-extpoll">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-server-extpoll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLWS_WITH_EXTERNAL_POLL"/>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-server-extpoll"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-server-extpoll/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-server-extpoll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLWS_WITH_EXTERNAL_POLL"/>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-server-extpoll/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-client">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-client"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-client/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-client/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-server">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DLWS_BUILDING_SHARED"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-server"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-server/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DLWS_BUILDING_SHARED"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-server/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-lejp">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-lejp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DLWS_BUILDING_STATIC"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-lejp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-lejp/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin/libwebsockets-test-lejp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINSTALL_DATADIR=&quot;/usr/local/share&quot;"/>
+					<Add option="-DLWS_BUILDING_STATIC"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/./async-dns"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/./compression"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/."/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/../poll"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lib/../include"/>
+					<Add directory="/usr/local/Cellar/openssl@3/3.1.3/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 test-lejp/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/test-apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/adopt.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/client.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/conmon.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/connect.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/connect2.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/connect3.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/connect4.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/client/sort-dns.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/close.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/dummy-callback.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/network.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/output.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/pollfd.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/service.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/sorted-usec-list.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/state.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/vhost.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/wsi-timeout.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/wsi.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/alloc.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/buflist.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/context.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/libwebsockets.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/logs.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/lws_dll2.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/lws_map.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/vfs.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/poll.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/base64-decode.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/cache-ttl/file.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/cache-ttl/heap.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/cache-ttl/lws-cache-ttl.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/dir.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/getifaddrs.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/getifaddrs.h">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/lejp.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/lws-ring.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/lwsac/cached-file.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/lwsac/lwsac.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/prng.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/sha-1.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-caps.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-fds.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-file.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-init.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-misc.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-pipe.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-service.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/unix-sockets.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/ops-h1.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/hpack.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/http2.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/ops-h2.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/client/client-http.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/cookie.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/date.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/header.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/parsers.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/server/lejp-conf.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/server/lws-spa.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/server/server.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/ops-listen.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/pipe/ops-pipe.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/ops-raw-file.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/ops-raw-skt.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/client-parser-ws.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/client-ws.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/ops-ws.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/server-ws.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/smd.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/system.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/openssl/openssl-client.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/openssl/openssl-server.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/openssl/openssl-session.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/openssl/openssl-ssl.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/openssl/openssl-tls.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/openssl/openssl-x509.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/tls-client.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/tls-network.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/tls-server.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/tls-sessions.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/tls.c">
+			<Option target="websockets_shared"/>
+			<Option target="websockets"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/test-apps/test-client.c">
+			<Option target="test-client"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/test-apps/test-lejp.c">
+			<Option target="test-lejp"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/test-apps/test-server.c">
+			<Option target="test-server-extpoll"/>
+			<Option target="test-server"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3/lws_config.h">
+			<Option target="GENHDR"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\gfc\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/echo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\echo\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/ping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\ping\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/vtouchpad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\vtouchpad\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/json-c.pc.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/json.h.cmakein">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/cmake/json_config.h.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\apps\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/apps/cmake/apps_config.h.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\apps\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\doc\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/CMakeLists-implied-options.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/cmake/FindOpenSSLbins.cmake">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/cmake/LwsCheckRequirements.cmake">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/cmake/libwebsockets-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/cmake/libwebsockets-config.cmake.in">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/cmake/lws_config.h.in">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/cmake/lws_config_private.h.in">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/plat/unix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\plat\unix\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/tls/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\tls\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\core\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/misc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\misc\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\system\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/smd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\system\smd\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/system/metrics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\system\metrics\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/core-net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\core-net\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\http\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\h1\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/h2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\h2\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/ws/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\ws\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-skt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\raw-skt\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/raw-file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\raw-file\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/roles/listen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\roles\listen\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\event-libs\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lib/event-libs/poll/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lib\event-libs\poll\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/test-apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\test-apps\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\plugins\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/lwsws/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\libwebsockets-4.3.3\lwsws\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

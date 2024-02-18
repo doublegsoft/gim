@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gfc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rd\;CMake Files\3rd\gfc\;CMake Files\3rd\wsServer\;CMake Files\3rd\wsServer\examples\;CMake Files\3rd\wsServer\examples\echo\;CMake Files\3rd\wsServer\examples\ping\;CMake Files\3rd\wsServer\examples\vtouchpad\;CMake Files\3rd\json-c-json-c-0.16-20220414\;CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\;CMake Files\3rd\json-c-json-c-0.16-20220414\apps\;CMake Files\3rd\json-c-json-c-0.16-20220414\apps\cmake\;CMake Files\3rd\json-c-json-c-0.16-20220414\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_id">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_id"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_id/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_id/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_ws">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_ws" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_ws"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_ws/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_ws" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_ws/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_btree">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_btree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_btree"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_btree/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_btree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_btree/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_string">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_string"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_string/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_string/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_lru">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_lru" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_lru"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_lru/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_lru" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_lru/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_mt">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_mt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_mt"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_mt/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_mt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_mt/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_log">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_log" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_log"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_log/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_log" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_log/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_fs">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_fs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_fs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_fs/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_fs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_fs/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_list">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_list"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_list/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_list/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_map">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_map"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_map/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_map/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfc">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/libgfc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 gfc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfc/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/libgfc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 gfc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfc_shared">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/libgfc.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 gfc_shared"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gfc_shared/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/libgfc.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 gfc_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_cli">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_cli"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_cli/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_cli/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_gc">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_gc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_gc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_gc/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_gc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_gc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_date">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_date" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_date"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gfc_date/fast">
+				<Option output="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/test_gfc_date" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/src"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/libwebsockets-4.3.3"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/libwebsockets-4.3.3/include"/>
+					<Add directory="/usr/local/mysql-8.0.19-macos10.15-x86_64/include"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="/opt/local/lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 test_gfc_date/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/gfc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_base64.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_bignum.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_btree.c">
+			<Option target="test_gfc_btree"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_cli.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_date.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+			<Option target="test_gfc_date"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_fs.c">
+			<Option target="test_gfc_fs"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_gc.c">
+			<Option target="test_gfc_ws"/>
+			<Option target="test_gfc_btree"/>
+			<Option target="test_gfc_string"/>
+			<Option target="test_gfc_lru"/>
+			<Option target="test_gfc_mt"/>
+			<Option target="test_gfc_list"/>
+			<Option target="test_gfc_map"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+			<Option target="test_gfc_gc"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_hex.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_id.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_list.c">
+			<Option target="test_gfc_list"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_log.c">
+			<Option target="test_gfc_log"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_lru.c">
+			<Option target="test_gfc_lru"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_map.c">
+			<Option target="test_gfc_map"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_mt.c">
+			<Option target="test_gfc_mt"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_ring.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_sha1.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_string.c">
+			<Option target="test_gfc_string"/>
+			<Option target="test_gfc_map"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_tcp.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_utf8.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_uuid.c">
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/src/gfc_ws.c">
+			<Option target="test_gfc_ws"/>
+			<Option target="gfc"/>
+			<Option target="gfc_shared"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_btree.c">
+			<Option target="test_gfc_btree"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_cli.c">
+			<Option target="test_gfc_cli"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_date.c">
+			<Option target="test_gfc_date"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_fs.c">
+			<Option target="test_gfc_fs"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_gc.c">
+			<Option target="test_gfc_gc"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_id.c">
+			<Option target="test_gfc_id"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_list.c">
+			<Option target="test_gfc_list"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_log.c">
+			<Option target="test_gfc_log"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_lru.c">
+			<Option target="test_gfc_lru"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_map.c">
+			<Option target="test_gfc_map"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_mt.c">
+			<Option target="test_gfc_mt"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_string.c">
+			<Option target="test_gfc_string"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/test/test_gfc_ws.c">
+			<Option target="test_gfc_ws"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/gfc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\gfc\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/echo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\echo\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/ping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\ping\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/wsServer/examples/vtouchpad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\wsServer\examples\vtouchpad\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/json-c.pc.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/json.h.cmakein">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/cmake/json_config.h.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\apps\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/apps/cmake/apps_config.h.in">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\apps\cmake\"/>
+		</Unit>
+		<Unit filename="/Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/3rd/json-c-json-c-0.16-20220414/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\json-c-json-c-0.16-20220414\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

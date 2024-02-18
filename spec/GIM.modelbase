@@ -1,0 +1,129 @@
+@name(label='会话信息', singular='conversation', plural='conversations')
+@persistence(name='tn_gim_convo')
+@entity
+conversation<
+  
+  @persistence(name='convoid', text='会话标识', select='=', delete='=')
+  id!!: uuid,
+
+  @name(label='会话名称')
+  @persistence(name='convonm', select='%%')
+  @primary
+  name: string(200),
+
+  @name(label='会话类型')
+  @persistence(name='convotyp', select='=')
+  @secondary
+  type: string(48),
+
+  @name(label='附加信息')
+  @persistence(name='opt')
+  options: json,
+
+  @name(label='业务状态')
+  @persistence(name='sts', update='=', select='=')
+  @tertiary
+  status: enum[01: 一般, 02: 关注, 90: 忽略]
+
+>
+
+@name(label='会话成员信息', singular='conversation_member', plural='conversation_members')
+@persistence(name='tv_gim_convombr')
+@value
+conversation_member<
+  
+  @name(label='会话标识')
+  @persistence(name='convoid', select='=', delete='=')
+  conversation!!: &conversation(id),
+
+  @name(label='成员标识')
+  @persistence(name='mbrid', delete='=', select='=')
+  @reference(value='id', name='member')
+  member_id!!: string(64),
+
+  @name(label='成员类型')
+  @persistence(name='mbrtyp', delete='=', select='=')
+  @reference(value='type', name='member')
+  @secondary
+  member_type!!: string(64),
+
+  @name(label='会话别名')
+  @persistence(name='als', select='%%')
+  alias: string(200),
+
+  @name(label='未读消息数量')
+  @persistence(name='unrdcnt', update='+1')
+  @primary
+  unread_count: integer,
+
+  @name(label='最近会话时间')
+  @persistence(name='lct', update='now')
+  @secondary
+  last_conversation_time: datetime,
+
+  @name(label='加入时间')
+  @persistence(name='jdtm', insert='now')
+  joined_time: datetime,
+
+  @name(label='离开时间')
+  @persistence(name='lvtm', update='now')
+  leave_time: datetime,
+
+  @name(label='业务状态')
+  @persistence(name='sts', update='=')
+  status: string(16)
+>
+
+@name(label='会话消息信息', singular='conversation_message', plural='conversation_messages')
+@persistence(name='tn_gim_convomsg')
+@entity
+conversation_message<
+  
+  @persistence(name='convomsgid', text='会话标识')
+  id!!: uuid,
+
+  @name(label='会话标识')
+  @persistence(name='convoid', select='=')
+  conversation: &conversation(id),
+
+  @name(label='发送者标识')
+  @persistence(name='sndrid')
+  @reference(value='id', name='sender')
+  sender_id!: string(64),
+
+  @name(label='发送者类型')
+  @persistence(name='sndrtyp')
+  @reference(value='type', name='sender')
+  sender_type!: string(64),
+
+  @name(label='接收者标识')
+  @persistence(name='rcvrid')
+  @reference(value='id', name='receiver')
+  receiver_id: string(64),
+
+  @name(label='接收者类型')
+  @persistence(name='rcvrtyp')
+  @reference(value='type', name='receiver')
+  receiver_type: string(64),
+
+  @name(label='消息时间')
+  @persistence(name='msgtm', insert='now', select='<>')
+  message_time: datetime,
+
+  @name(label='消息内容')
+  @persistence(name='msgtyp')
+  message_type: string(64),
+  
+  @name(label='消息内容')
+  @persistence(name='msgcont')
+  message_content: text,
+
+  @name(label='创建时间')
+  @persistence(name='crttm', insert='now')
+  create_time: now,
+
+  @name(label='附加选项')
+  @persistence(name='sts', update='=')
+  status: enum[01: 未读, 02: 已读, 90: 撤销]
+
+>

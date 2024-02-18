@@ -1,0 +1,59 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/opt/local/bin/x86_64-w64-mingw32-gcc -DCMAKE_CXX_COMPILER=/opt/local/bin/x86_64-w64-mingw32-g++ -G "CodeBlocks - Unix Makefiles" /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.16/Modules/Platform/Darwin-Initialize.cmake:131 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:13 (project)
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  A logical block opening on the line
+
+    /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/CMakeLists.txt:16 (if)
+
+  closes on the line
+
+    /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/CMakeLists.txt:26 (endif)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  A logical block opening on the line
+
+    /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/CMakeLists.txt:38 (if)
+
+  closes on the line
+
+    /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/CMakeLists.txt:41 (endif)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at 3rd/wsServer/examples/vtouchpad/CMakeLists.txt:57 (message):
+  Operating System 'Darwin' not supported!
+
+
+-- Wrote /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414/apps_config.h
+-- Wrote /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414/config.h
+-- Wrote /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug/3rd/json-c-json-c-0.16-20220414/json_config.h
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+Warning: doxygen not found, the 'doc' target will not be included
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   json-c
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Volumes/EXPORT/local/works/doublegsoft.net/gim/03.Development/gim/cmake-build-debug

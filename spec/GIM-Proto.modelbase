@@ -1,0 +1,152 @@
+
+@name(label='登录请求')
+@request
+login_request<
+  
+  @name(label='成员标识')
+  member_id: string,
+  
+  @name(label='成员类型')
+  member_type: string
+
+>
+
+@name(label='登录应答')
+@response
+login_response<
+  
+  @name(label='会话标识')
+  session_id: string
+
+>
+
+@name(label='登出请求')
+@request
+logout_request<
+  
+  @name(label='会话标识')
+  session_id: string
+
+>
+
+@name(label='登录应答')
+@response
+logout_response<
+
+>
+
+@name(label='创建会话请求')
+@request
+create_conversation_request<
+  
+  @name(label='成员标识')
+  member_id: string,
+  
+  @name(label='成员类型')
+  member_type: string
+
+>
+
+@name(label='创建会话应答')
+@response
+create_conversation_response<
+  
+  @name(label='会话')
+  conversation: &conversation(id)
+
+>
+
+@name(label='获取会话请求')
+@request
+get_conversations_request<
+  
+  @name(label='成员标识')
+  member_id: string,
+  
+  @name(label='成员类型')
+  member_type: string
+
+>
+
+@name(label='获取会话应答')
+@response
+get_conversations_response<
+  
+  conversations: &conversation(id)[]
+
+>
+
+@name(label='添加会话成员请求')
+@request
+add_conversation_member_request<
+  
+  @name(label='会话标识')
+  conversation_id: string,
+  
+  @name(label='成员标识')
+  member_id: string,
+  
+  @name(label='成员类型')
+  member_type: string
+
+>
+
+@name(label='添加会话成员应答')
+@response
+add_conversation_member_response<
+
+>
+
+@name(label='发送消息请求')
+@request
+send_message_request<
+  
+  @name(label='会话标识')
+  conversation_id: string,
+
+  @name(label='发送成员标识')
+  sender_id: string,
+
+  @name(label='发送成员类型')
+  sender_type: string,
+  
+  @name(label='消息类型')
+  message_type: string,
+
+  @name(label='消息内容')
+  message_content: string
+
+>
+
+@name(label='发送消息应答')
+@response
+send_message_response<
+  
+>
+
+@name(label='获取会话消息请求')
+@request
+get_messages_request<
+  
+  @name(label='会话标识')
+  conversation_id: string,
+
+  @name(label='成员标识')
+  member_id: string,
+  
+  @name(label='成员类型')
+  member_type: string,
+
+  @name(label='最后会话时间')
+  last_conversation_time: string
+
+>
+
+@name(label='获取会话消息应答')
+@response
+get_messages_response<
+  
+  messages: &conversation_message(id)[]
+
+>
+

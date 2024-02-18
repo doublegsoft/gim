@@ -1,0 +1,7 @@
+{
+  "operation": "login",
+  "payload": {
+    "memberId": "0D127E80-3342-11ED-A261-0242AC120002",
+    "memberType": "STDBIZ.SMS.PERSON@MN"
+  }
+}
