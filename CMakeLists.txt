@@ -9,7 +9,7 @@
 ##  d"     YD
 ##  "Y88888P'
 ##
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.10)
 project(gim C)
 
 set(CMAKE_C_STANDARD 11)
